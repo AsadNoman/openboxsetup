@@ -1,0 +1,34 @@
+rofi.color-normal:                   argb:00000099, #D4d4d4, argb:00000099, argb:4CD75656,#FFFFFF
+rofi.color-urgent: argb:00373B97, #cc6666, argb:e54b5160, argb:00373B97, #f9f9f9
+rofi.color-active: argb:00373B47, #65acff, argb:e44b5160, argb:00373B47, #f9f9f9
+rofi.color-window:                   argb:da2f343f, #FFF, argb:52F75656
+
+rofi.terminal:                       terminator
+rofi.ssh-client:                     ssh
+rofi.ssh-command:                    {terminal} -e {ssh-client} {host}
+rofi.run-command:                    {cmd}
+rofi.parse-hosts:                    true
+rofi.matching:                       normal
+
+
+
+rofi.width: 30
+rofi.lines: 8
+rofi.columns:1
+rofi.font: Noto Sans Regular 12
+rofi.bw: 0
+rofi.opecity: 85
+rofi.padding: 25
+rofi.eh: 1
+rofi.fullscreen: false
+rofi.sidebar-mode: true
+rofi.separator-style: solid
+rofi.hide-scrollbar: false
+rofi.show-icons: true
+rofi.location: 1
+rofi.line-padding: 20
+rofi.line-margin:20
+rofi.modi: drun,window,run
+rofi.display-window:                 Windows
+rofi.display-run:                    Run
+rofi.display-drun:                   Apps

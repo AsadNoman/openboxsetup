@@ -1,0 +1,33 @@
+nitrogen --restore &
+manjaro-compositor --start &
+
+polybar openbox-bar &
+### Openbox autostart
+ob-autostart -d &
+
+### launch conky
+manjaro-conky-session &
+
+### volumeicon
+volumeicon &
+
+plank & 
+
+### PolicyKit authentication
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+### Side shortcuts for file managers
+xdg-user-dirs-gtk-update &
+
+### enable numlock
+### uncomment next line
+# sleep 0.5; numlockx &
+
+### launch thunar in daemon mode
+pcmanfm --d &
+
+### Required for xfce settings to work
+xfsettingsd &
+
+#plank &
+
